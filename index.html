@@ -1,28 +1,34 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>My A-Frame Scene</title>
-  <script src="https://aframe.io/releases/0.3.0/aframe.min.js"></script>
-  <script src="https://unpkg.com/aframe-firebase-component@^4.0.0/dist/aframe-firebase-component.min.js"></script>
+  <meta charset="utf-8">
+  <title>p5 workshops sketches</title>
+  <script src="p5.min.js" charset="utf-8"></script>
 </head>
-
 <body>
-  <a-scene firebase="apiKey: AIzaSyAFclXaA84i9_MBzWA0PLCFedCey37poo0;
-                     authDomain: a-frame-experiment.firebaseapp.com;
-                     databaseURL: https://a-frame-experiment.firebaseio.com;
-                     storageBucket: a-frame-experiment.appspot.com">
-    <a-assets>
-      <!-- Using mixins to decrease amount of data send over the wire. -->
-      <a-mixin id="avatar-head"
-              geometry="primitive: box; depth: 0.3; height: 0.3; width: 0.3"
-              material="color: #222"></a-mixin>
-    </a-assets>
+  <h1>Sam's p5 Workshop Sketches 07/15/17</h1>
+  <h2>Day One</h2>
+  <a href="01-icecream">01. Ice Cream</a><br />
+  <a href="02-bezier-curve-demo">02. Bezier Curve Intro</a><br />
+  <a href="03-procedural-spikey">03. Procedural Spikey</a><br />
+  <a href="04-abstract-art">04. Abstract Art</a><br />
+  <a href="05-color-palette">05. Color Palette</a><br />
+  <a href="06-color-swirl">06. Color Swirl</a><br />
+  <a href="07-color-swirl-2">07. Color Swirl 2</a><br />
+  <a href="08-color-3d-shape">08. Color 3d Shape</a><br />
+  <br />
+  <h2>Day Two</h2>
 
-    <a-entity id="avatar" mixin="avatar-head"
-              camera look-controls wasd-controls
-              firebase-broadcast="components: mixin, position, rotation"
-              position="0 1.8 5">
-    </a-entity>
-  </a-scene>
+  <a href="09-grid-intro">09. Grid Intro</a><br />
+  <a href="10-grid-rainbow">10. Grid Rainbow</a><br />
+  <a href="11-weighted-colors">11. Weighted Color Randomization</a><br />
+  <a href="12-perlin-noise-grid-colors-shapes">12. Perlin Noise: Grid, Colors, Shapes</a><br />
+  <a href="13-animated-iceberg">13. Animated Iceberg</a><br />
+  <a href="14-color-palette-generator">14. Color Palette Generator</a><br />
+  <a href="15-periodic-pattern-acid-trip">15. Periodic Pattern Acid Trip</a><br />
+  <a href="16-recursion-intro">16. Recursion Intro</a><br />
+
+  <br /><a href="first-sketch">CURRENT SKETCH</a><br />
+
 </body>
 </html>
